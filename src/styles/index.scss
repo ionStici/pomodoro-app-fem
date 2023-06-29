@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  --color-red: hsla(0, 91%, 71%, 1);
+  --color-neon: hsla(182, 91%, 71%, 1);
+  --color-purple: hsla(284, 89%, 74%, 1);
+  --color-blue-grey: hsla(227, 100%, 92%, 1);
+  --color-blue-dark: hsla(235, 35%, 18%, 1);
+  --color-white: hsla(0, 0%, 100%, 1);
+  --color-grey: hsla(229, 52%, 96%, 1);
+  --color-dark: hsla(234, 39%, 14%, 1);
+
+  --sans: "Kumbh Sans", sans-serif;
+  --roboto: "Roboto Slab", serif;
+  --mono: "Space Mono", monospace;
+
+  background-color: var(--color-blue-dark);
+}
+
+body {
+  font-family: var(--sans);
+
+  color: var(--color-blue-grey);
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}

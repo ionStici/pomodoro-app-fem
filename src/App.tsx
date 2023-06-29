@@ -1,5 +1,8 @@
+import Pomodoro from "./Pomodoro";
+import "./styles/index.scss";
+
 function App() {
-  return null;
+  return <Pomodoro />;
 }
 
 export default App;
